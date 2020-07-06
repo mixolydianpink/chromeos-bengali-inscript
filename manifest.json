@@ -1,0 +1,22 @@
+{
+  "name": "Bengali (Inscript)",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Bengali (Inscript) keyboard layout for ChromeOS.",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "input"
+  ],
+  "input_components": [
+    {
+      "name": "Bengali (Inscript) keyboard",
+      "type": "ime",
+      "id": "bengali_inscript",
+      "description": "Bengali (Inscript) keyboard layout",
+      "language": "bn",
+      "layouts": ["us::eng"]
+    }
+  ]
+}
